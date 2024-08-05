@@ -1,0 +1,7 @@
+{
+  "name": "@primate/guides",
+  "private": true,
+  "dependencies": {
+    "primate": "^0.32.0"
+  }
+}
