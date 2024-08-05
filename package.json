@@ -2,6 +2,7 @@
   "name": "@primate/guides",
   "private": true,
   "dependencies": {
+    "fluent-ffmpeg": "^2.1.3",
     "primate": "^0.32.0"
   },
   "type": "module"
