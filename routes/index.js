@@ -1,5 +1,5 @@
 import file from "@rcompat/fs/file";
-import { txt } from "@rcompat/http/mime";
+import { mp4 } from "@rcompat/http/mime";
 import spawn from "@rcompat/stdio/spawn";
 
 const command = "ffmpeg";
@@ -14,6 +14,6 @@ export default {
 
     file(filename).stream().pipeTo(stdin);
 
-    return new Response(stdout, { headers: { "context-type": txt }});
+    return new Response(stdout, { headers: { "content-type": mp4 }});
   }
 }
